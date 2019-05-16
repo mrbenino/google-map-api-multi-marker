@@ -32,7 +32,7 @@ locations = [
     {id:23, lat: -43.999792, lng: 170.463352, lab: 'v', info:'<h1>text</h1>'}
   ];
 
-function initMap() {
+initMap = function(){
     map = new google.maps.Map(document.getElementById('map'), {
         center: {lat: -31.563910, lng: 147.154312},
         zoom: 16,
